@@ -1,6 +1,52 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
 <body>
+
+    <div class="container">
+        <h1>Añadir producto</h1>
+        <div class="uno">
+            <div class="product">
+                <h2> Nombre del producto</h2>
+                <input type="text" id="name">
+            </div>
+            <div class="price">
+                <h2> Precio</h2>
+                <input type="text" id="price">
+            </div>
+            <div class="seller">
+                <div class="vend">
+                    <h2> Vendedor</h2>
+                    <input type="text" id="seller">
+                </div>
+            </div>
+        </div>
+        <div class="dos">
+            <div class="category">
+                <h2> Categoría</h2>
+                <input type="text" id="category">
+            </div>
+            <div class="stock">
+                <h2> Inventario</h2>
+                <input type="text" id="stock">
+            </div>
+        </div>
+        <div class="botones">
+            <button onclick = "postProduct()" class="add">Post</button>
+            <button onclick = "getProducts()">Get</button>
+        </div>
+        <div class="tabla" id="res"></div>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="callrestapi.js"></script>
 
 </body>
 </html>
