@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Titulo */
+h1{
+    color:rgb(44, 120, 172);
+}
+
+/* Container con inputs */
+.container {
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 2px 16px;
+}
+
+/* Divs con inputs */
+.uno,
+.dos{
+    display: flex;
+    flex-direction: row;
+}
+
+.dos{
+    margin-top: 5%;
+}
+
+
+/* inputs */
+h2{
+    font-size: 15px;
+    margin: 0% 0% 3% 0%;
+}
+
+.stock{
+    margin: 0% 0% 0% 3%;
+}
+
+.product,
+.price,
+.seller,
+.stock{
+    width: 20%;
+}
+
+.category{
+    width: 17%;
+}
+
+input{
+    margin: 2% 0% 1% 0%;
+}
+
+/* Botones */
+.botones{
+    margin: 5% 0% 0% 0%;
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    padding: 10px;
+    font-size: 19px;
+    margin-left: 3%;
+    border-radius: 12px;
+    border-style: none;
+    color: white;
+    background-color: rgb(44, 120, 172);
+}
+
+button:hover{
+    background-color: rgba(44, 121, 172, 0.705);
+    color: white;
+    cursor: pointer;
+}
+
+.add{
+    margin: 0%;
+}
+
+.tabla{
+    margin-top: 5%;
+}
